@@ -18,3 +18,13 @@ body {
 a {
     transition: color .1s linear, background-color .1s linear;
 }
+
+h2 {
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 700px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}
