@@ -36,6 +36,7 @@ h1 {
 
 h2 {
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 div {

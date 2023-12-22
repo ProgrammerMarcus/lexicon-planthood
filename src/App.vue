@@ -1,13 +1,15 @@
 <script setup>
-import PlantHero from './components/icons/PlantHero.vue';
-import PlantNavbar from './components/icons/PlantNavbar.vue'
-import PlantHeader from './components/icons/PlantHeader.vue'
+import PlantHero from './components/PlantHero.vue';
+import PlantNavbar from './components/PlantNavbar.vue'
+import PlantHeader from './components/PlantHeader.vue'
+import PlantList from './components/PlantList.vue'
 </script>
 
 <template>
   <PlantHero />
   <PlantNavbar />
   <PlantHeader />
+  <PlantList />
 </template>
 
 <style scoped>
