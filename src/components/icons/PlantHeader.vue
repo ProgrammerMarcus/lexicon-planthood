@@ -80,6 +80,11 @@ hr {
             width: 512px;
             justify-self: start;
             margin-left: 20px;
+            text-align: left;
+        }
+
+        h2 {
+            margin: 0 auto 0 0;
         }
 
         a {
