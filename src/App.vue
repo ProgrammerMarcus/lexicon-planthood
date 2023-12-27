@@ -4,6 +4,7 @@ import PlantNavbar from './components/PlantNavbar.vue'
 import PlantHeader from './components/PlantHeader.vue'
 import PlantList from './components/PlantList.vue'
 import PlantMore from './components/PlantMore.vue';
+import PlantFooter from './components/PlantFooter.vue'
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import PlantMore from './components/PlantMore.vue';
   <PlantHeader />
   <PlantList />
   <PlantMore />
+  <PlantFooter />
 </template>
 
 <style scoped>

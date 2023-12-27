@@ -73,7 +73,7 @@ hr {
             order: 1;
             justify-self: start;
             padding: 40px;
-            margin-right: 20px;
+            margin-left: 20px;
             height: 280px;
         }
 
