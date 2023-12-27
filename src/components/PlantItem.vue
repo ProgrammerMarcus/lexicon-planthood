@@ -7,6 +7,7 @@ defineProps({
   date: String,
   producer: String,
 })
+
 </script>
 
 <template>
@@ -23,29 +24,41 @@ defineProps({
 
 <style scoped>
     section {
-        width: 256px;
+        width: 100%;
         box-shadow: 3px 3px 3px var(--shadow);
+        @media screen and (max-width: 699px) {
+            font-size: 0.8rem;
+        }
     }
     div {
         display: grid;
-        grid-template: 1fr 1fr / 1fr 1fr;
+        grid-template: 1fr / max-content auto;
+        @media screen and (min-width: 700px) {
+            grid-template: 2.5rem 2.5rem / 1fr 1fr;
+        }
         justify-content: space-between;
         align-items: center;
         margin: 0 5%;
-        height: 6rem;
-        padding-bottom: 0.5rem;
+        padding: 0.5rem 0;
+        gap: 0.3rem;
     }
     h3 {
         margin: 0;
-        font-size: 1.5rem;
-        font-weight: normal;
+        font-size: 1.25em;
+        font-weight: 600;
     }
     img {
-        background: center / cover v-bind(image);
+        background: center / cover v-bind("`url('${image}')`");
         width: 100%;
         aspect-ratio: 1;
         box-sizing: border-box;
         padding: 15%;
+    }
+    .date {
+        @media screen and (max-width: 699px) {
+            max-width: 4rem;
+            font-size: 0.7em;
+        }
     }
     .producer {
         font-size: 0.9em;

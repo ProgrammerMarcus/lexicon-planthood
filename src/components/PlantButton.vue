@@ -14,7 +14,7 @@ a {
     text-decoration: none;
     color: white;
     border-radius: 9px;
-    padding: 0.7rem 1.5rem;
+    padding: 0.9rem 1.5rem;
     font-weight: bold;
     font-size: 1.2rem;
     box-shadow: 0 5px 10px var(--shadow);
