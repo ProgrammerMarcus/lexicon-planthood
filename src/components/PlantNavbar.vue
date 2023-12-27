@@ -13,10 +13,10 @@ addEventListener("resize", (event) => {
             src="@/assets/svg/burgir.svg"
             alt="A burgir (not to be confused with burger)" />
         <div v-show="dropdown" id="links" class="links">
-            <a href="" id="link_planer">PLANER</a>
-            <a href="" id="link_history">HISTORIK</a>
-            <a href="" id="link_tips">TIPS</a>
-            <a href="" id="link_login">LOGGA IN</a>
+            <a href="#/plans" id="link_planer">PLANER</a>
+            <a href="#/" id="link_history">HISTORIK</a>
+            <a href="#/" id="link_tips">TIPS</a>
+            <a href="#/" id="link_login">LOGGA IN</a>
         </div>
     </nav>
 </template>

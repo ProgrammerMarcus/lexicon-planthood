@@ -1,5 +1,5 @@
 <template>
-    <a href="#">Till toppen av sidan</a>
+    <a href="#root">Till toppen av sidan</a>
 </template>
 
 <style scoped>

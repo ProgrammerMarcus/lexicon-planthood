@@ -1,23 +1,27 @@
 <script setup>
-import PlantHero from './components/PlantHero.vue';
-import PlantNavbar from './components/PlantNavbar.vue'
-import PlantHeader from './components/PlantHeader.vue'
-import PlantList from './components/PlantList.vue'
-import PlantMore from './components/PlantMore.vue';
-import PlantFooter from './components/PlantFooter.vue'
-import PlantReturn from './components/PlantReturn.vue';
+import PlantHome from "./components/PlantHome.vue";
+import PlantPlans from "./components/PlantPlans.vue";
+import { ref, computed } from "vue";
+const routes = {
+    "/": PlantHome,
+    "/plans": PlantPlans,
+};
+
+const currentPath = ref(window.location.hash);
+
+window.addEventListener("hashchange", () => {
+    currentPath.value = window.location.hash;
+});
+
+const currentView = computed(() => {
+    return routes[currentPath.value.slice(1) || "/"] || NotFound;
+});
 </script>
 
 <template>
-  <PlantHero />
-  <PlantNavbar />
-  <PlantHeader />
-  <PlantList />
-  <PlantMore />
-  <PlantFooter />
-  <PlantReturn />
+    <div id="root">
+        <component :is="currentView" />
+    </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

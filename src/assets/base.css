@@ -4,7 +4,7 @@
     --red: #b93857;
     --opa-black: rgba(0, 0, 0, 0.79);
     --bg: #fcf6fc;
-    --shadow: #03382F1C;
+    --shadow: #03382f1c;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 a {
-    transition: color .1s linear, background-color .1s linear;
+    transition: color 0.1s linear, background-color 0.1s linear;
 }
 
 h2 {
@@ -28,4 +28,8 @@ h2 {
     h2 {
         font-size: 1.5rem;
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }
