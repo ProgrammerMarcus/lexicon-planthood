@@ -26,12 +26,19 @@ img {
     padding: 5%;
     object-fit: contain;
     margin-top: 20px;
+    object-fit: scale-down;
+    box-sizing: content-box;
+    width: max-content;
+    height: 280px;
 }
 
 h1 {
     color: var(--green);
     font-weight: normal;
     margin-top: 30px;
+    @media screen and (max-width: 699px) {
+        font-size: 1.6rem;
+    }
 }
 
 h2 {
@@ -60,7 +67,7 @@ hr {
 
 @media screen and (min-width: 700px) {
     header {
-        grid-template: auto 1fr / 1fr 1fr;
+        grid-template: max-content 1fr / auto auto;
         margin: 0 5%;
 
         h1 {
@@ -72,13 +79,14 @@ hr {
             grid-row: 2 span;
             order: -1;
             justify-self: end;
-            padding: 10%;
+            padding: 40px;
             margin-right: 20px;
+            height: 280px;
         }
 
         div {
             display: grid;
-            width: 512px;
+            max-width: 512px;
             justify-self: start;
             margin-left: 20px;
             text-align: left;
@@ -87,7 +95,6 @@ hr {
         h2 {
             margin: 0 auto 0 0;
         }
-
         a {
             margin: 0 0 0 auto;
         }
@@ -95,7 +102,6 @@ hr {
         hr {
             grid-column: 2 span;
         }
-
     }
 }
 </style>

@@ -24,6 +24,19 @@ img {
     padding: 5%;
     object-fit: contain;
     margin-top: 20px;
+    object-fit: scale-down;
+    box-sizing: content-box;
+    width: max-content;
+    height: 280px;
+}
+
+h1 {
+    color: var(--green);
+    font-weight: normal;
+    margin-top: 30px;
+    @media screen and (max-width: 699px) {
+        font-size: 1.6rem;
+    }
 }
 
 h2 {
@@ -35,7 +48,7 @@ div {
     display: grid;
     place-items: center;
     text-align: center;
-    margin: 0 10px;
+    grid-row: 2 span;
 }
 
 header {
@@ -43,38 +56,41 @@ header {
     place-items: center;
 }
 
+hr {
+    margin-top: 7%;
+    height: 3px;
+    width: 300px;
+    background-color: var(--green);
+}
+
 @media screen and (min-width: 700px) {
     header {
-        grid-template: auto 1fr / 1fr 1fr;
+        grid-template: min-content auto / auto auto;
         margin: 0 5%;
-
-        h1 {
-            grid-column: 2 span;
-            order: -2;
-        }
 
         img {
             grid-row: 2 span;
-            order: -1;
-            justify-self: end;
-            padding: 10%;
+            order: 1;
+            justify-self: start;
+            padding: 40px;
             margin-right: 20px;
+            height: 280px;
         }
 
         div {
             display: grid;
-            width: 512px;
-            justify-self: start;
+            max-width: 512px;
+            justify-self: end;
             margin-left: 20px;
             text-align: left;
+            grid-row: 2 span;
         }
 
         h2 {
             margin: 0 auto 0 0;
         }
-
         a {
-            margin: 0 0 0 auto;
+            margin: 0 auto 0 0;
         }
 
         hr {
