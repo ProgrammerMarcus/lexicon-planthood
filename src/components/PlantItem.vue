@@ -6,13 +6,19 @@ defineProps({
     item: String,
     date: String,
     producer: String,
+    visibility: {
+        type: String,
+        default: "visible",
+    },
 });
 </script>
 
 <template>
     <section>
-        <img src="@/assets/svg/plant.svg" :alt="item" />
-        <div>
+        <div class="bg">
+            <img class="hide" src="@/assets/svg/plant.svg" :alt="item" />
+        </div>
+        <div class="order">
             <h3>{{ item }}</h3>
             <span class="date">{{ date }}</span>
             <span class="producer">{{ producer }}</span>
@@ -22,19 +28,27 @@ defineProps({
 </template>
 
 <style scoped>
+.bg {
+    background: center / cover v-bind("`url('${image}')`");
+    margin: 0;
+    aspect-ratio: 1;
+    min-height: 155px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    width: 100%;
+}
+
 section {
     width: 100%;
     box-shadow: 3px 3px 3px var(--shadow);
-    @media screen and (max-width: 699px) {
+    @media screen and (max-width: 799px) {
         font-size: 0.8rem;
     }
 }
-div {
+.order {
     display: grid;
     grid-template: 1fr / max-content auto;
-    @media screen and (min-width: 700px) {
-        grid-template: 2.5rem 2.5rem / 1fr 1fr;
-    }
     justify-content: space-between;
     align-items: center;
     margin: 0 5%;
@@ -47,14 +61,13 @@ h3 {
     font-weight: 600;
 }
 img {
-    background: center / cover v-bind("`url('${image}')`");
-    width: 100%;
-    aspect-ratio: 1;
-    box-sizing: border-box;
-    padding: 15%;
+    width: 80%;
+    @media screen and (min-width: 800px) {
+        width: 100%;
+    }
 }
 .date {
-    @media screen and (max-width: 699px) {
+    @media screen and (max-width: 799px) {
         max-width: 4rem;
         font-size: 0.7em;
     }
@@ -68,5 +81,11 @@ img {
 .remove,
 .date {
     margin: auto 0 auto auto;
+}
+
+.hide {
+    @media screen and (max-width: 800px) {
+        visibility: v-bind(visibility);
+    }
 }
 </style>

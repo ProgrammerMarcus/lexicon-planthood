@@ -11,7 +11,7 @@
         border: none;
     }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
     button:after {
         content: "TA BORT";
     }

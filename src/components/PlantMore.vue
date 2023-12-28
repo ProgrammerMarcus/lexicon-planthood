@@ -34,7 +34,7 @@ h1 {
     color: var(--green);
     font-weight: normal;
     margin-top: 30px;
-    @media screen and (max-width: 699px) {
+    @media screen and (max-width: 799px) {
         font-size: 1.6rem;
     }
 }
@@ -63,7 +63,7 @@ hr {
     background-color: var(--green);
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     header {
         grid-template: min-content auto / auto auto;
         margin: 0 5%;

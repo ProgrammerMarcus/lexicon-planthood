@@ -24,7 +24,7 @@
 <style scoped>
 footer {
     display: grid;
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 800px) {
         grid-template: 1fr / 1fr 1fr;
     }
     background: center / cover url("@/assets/img/hand.avif");
@@ -45,18 +45,18 @@ address div {
     grid-auto-flow: column;
     gap: 1rem;
     margin: 1.2rem;
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 800px) {
         margin: 3rem;
     }
     font-size: 0.8rem;
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 800px) {
         font-size: 1.5rem;
     }
 
 }
 
 address div img {
-    @media screen and (max-width: 699px) {
+    @media screen and (max-width: 799px) {
         width: 0.8rem;
     }
     
@@ -66,13 +66,13 @@ address div img {
     display: grid;
     place-items: center;
     aspect-ratio: 1;
-    @media screen and (max-width: 699px) {
+    @media screen and (max-width: 799px) {
         order: -1;
     }
 }
 
 .logo img {
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 800px) {
         height: 256px;
     }
     
@@ -89,7 +89,7 @@ address div img {
 h2 {
     font-size: 2.5rem;
     margin: auto;
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 800px) {
         height: 512px;
         font-size: 6rem;
     }

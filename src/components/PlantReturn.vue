@@ -13,7 +13,7 @@
         width: 100%;
         height: 5rem;
     }
-    @media screen and (max-width: 699px) {
+    @media screen and (max-width: 799px) {
         a {
             height: 4rem;
             font-size: 0.8rem;

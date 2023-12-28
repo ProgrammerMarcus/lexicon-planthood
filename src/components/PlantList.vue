@@ -32,7 +32,7 @@ h2, .more {
     grid-template: 1fr / repeat(2, 45%);
     justify-content: center;
     gap: 10px;
-    @media (min-width: 700px) {
+    @media (min-width: 800px) {
         grid-template: 1fr / repeat(3, 256px);
         gap: 30px;
     }

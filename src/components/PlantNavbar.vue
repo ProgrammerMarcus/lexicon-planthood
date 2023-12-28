@@ -1,8 +1,8 @@
 <script setup>
 import { ref } from "vue";
-const dropdown = ref(window.innerWidth > 700);
+const dropdown = ref(window.innerWidth > 800);
 addEventListener("resize", (event) => {
-    dropdown.value = window.innerWidth > 700;
+    dropdown.value = window.innerWidth > 800;
 });
 </script>
 <template>
@@ -43,7 +43,7 @@ a:hover {
     background-color: var(--green);
     color: white;
 }
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 799px) {
     .links {
         place-items: center;
         position: absolute;
@@ -55,7 +55,7 @@ a:hover {
         box-shadow: 0px 5px 5px var(--shadow);
     }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     .links {
         grid-auto-flow: column;
         box-shadow: 0px 5px 5px var(--shadow);
