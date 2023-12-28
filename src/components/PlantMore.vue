@@ -66,7 +66,7 @@ hr {
 @media screen and (min-width: 800px) {
     header {
         grid-template: min-content auto / auto auto;
-        margin: 0 5%;
+        margin: 50px 5% 0 5%;
 
         img {
             grid-row: 2 span;

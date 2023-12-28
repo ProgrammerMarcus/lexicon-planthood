@@ -31,7 +31,10 @@ addEventListener("resize", (event) => {
 
 .links {
     display: grid;
-    grid-template: 1fr / 128px;
+    @media screen and (max-width: 799px) {
+        grid-template: 1fr / 128px;
+    }
+    grid-template: 1fr / repeat(4, 1fr);
 }
 a {
     color: var(--green);

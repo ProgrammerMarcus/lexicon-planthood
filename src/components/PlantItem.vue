@@ -61,7 +61,7 @@ h3 {
     font-weight: 600;
 }
 img {
-    width: 80%;
+    width: 60%;
     @media screen and (min-width: 800px) {
         width: 100%;
     }
