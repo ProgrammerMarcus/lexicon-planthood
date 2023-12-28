@@ -23,7 +23,7 @@ import PlantButton from "./PlantButton.vue";
 
 <style scoped>
 h2 {
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 800px) {
         justify-self: start;
         font-size: 2rem;
     }
@@ -37,7 +37,6 @@ section {
     display: grid;
     place-items: center;
     grid-template: 1fr / 1fr;
-    max-width: 720px;
     margin: 0 auto;
 }
 

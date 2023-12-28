@@ -24,13 +24,18 @@ import plants from "@/assets/plants.js";
 main {
     margin-top: 30px;
     display: grid;
-    place-items: center;
+    place-items: space-between;
     gap: 0.5rem;
+
+    @media screen and (max-width: 800px) {
+        margin: 15px;
+    }
+
 }
 
 h2 {
+    justify-self: center;
     @media screen and (min-width: 799px) {
-        justify-self: center;
         font-size: 2rem;
     }
 }
@@ -41,10 +46,9 @@ h2 {
     gap: 10px;
     @media (min-width: 799px) {
         grid-template: 1fr / repeat(3, 256px);
-        gap: 30px;
-        justify-content: center;
+        justify-content: space-between;
         gap: 10px;
     }
-    place-items: center;
+
 }
 </style>

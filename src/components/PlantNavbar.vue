@@ -31,6 +31,7 @@ addEventListener("resize", (event) => {
 
 .links {
     display: grid;
+    grid-template: 1fr / 128px;
 }
 a {
     color: var(--green);
@@ -38,6 +39,9 @@ a {
     font-weight: bold;
     text-align: center;
     padding: 1.2rem;
+    border-radius: 9px;
+    margin: 2px 0;
+    width: calc(100% - 4px);
 }
 a:hover {
     background-color: var(--green);

@@ -64,16 +64,19 @@ address div img {
 
 .logo {
     display: grid;
+    @media screen and (max-width: 799px) {
+        aspect-ratio: 1;
+    }
     place-items: center;
-    aspect-ratio: 1;
     @media screen and (max-width: 799px) {
         order: -1;
     }
 }
 
 .logo img {
+    height: 256px;
     @media screen and (min-width: 800px) {
-        height: 256px;
+        width: 95%;
     }
     
 }
