@@ -52,14 +52,12 @@ address div {
     @media screen and (min-width: 800px) {
         font-size: 1.5rem;
     }
-
 }
 
 address div img {
     @media screen and (max-width: 799px) {
         width: 0.8rem;
     }
-    
 }
 
 .logo {
@@ -78,7 +76,6 @@ address div img {
     @media screen and (min-width: 800px) {
         width: 95%;
     }
-    
 }
 
 .contact {

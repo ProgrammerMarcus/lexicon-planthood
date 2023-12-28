@@ -7,20 +7,19 @@ import plants from "@/assets/plants.js";
     <main>
         <h2>Dina planerade planteringar</h2>
         <div class="list">
-            <PlantItem class="item"
-            :item="plants[0].item"
-            :image=plants[0].image
-            :date="plants[0].date"
-            :producer="plants[0].producer"
-            visibility="hidden"
-            v-for="n in 1" />
+            <PlantItem
+                class="item"
+                :item="plants[0].item"
+                :image="plants[0].image"
+                :date="plants[0].date"
+                :producer="plants[0].producer"
+                visibility="hidden"
+                v-for="n in 1" />
         </div>
-
     </main>
 </template>
 
 <style scoped>
-
 main {
     margin-top: 30px;
     display: grid;
@@ -30,7 +29,6 @@ main {
     @media screen and (max-width: 800px) {
         margin: 15px;
     }
-
 }
 
 h2 {
@@ -49,6 +47,5 @@ h2 {
         justify-content: space-between;
         gap: 10px;
     }
-
 }
 </style>

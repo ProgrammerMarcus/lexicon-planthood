@@ -1,7 +1,7 @@
 <script setup>
 defineProps({
-  text: String
-})
+    text: String,
+});
 </script>
 
 <template>
@@ -19,8 +19,7 @@ a {
     font-size: 1.2rem;
     box-shadow: 0 5px 10px var(--shadow);
     @media screen and (max-width: 799px) {
-      font-size: 1rem;
+        font-size: 1rem;
     }
 }
-
 </style>

@@ -5,11 +5,10 @@
 </template>
 
 <style scoped>
-
-    button {
-        background: none;
-        border: none;
-    }
+button {
+    background: none;
+    border: none;
+}
 
 @media (min-width: 800px) {
     button:after {

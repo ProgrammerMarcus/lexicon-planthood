@@ -1,7 +1,7 @@
 <script setup>
 import PlantButton from "./PlantButton.vue";
 import PlantItem from "./PlantItem.vue";
-import plants from "@/assets/plants.js"
+import plants from "@/assets/plants.js";
 </script>
 
 <template>
@@ -15,17 +15,17 @@ import plants from "@/assets/plants.js"
                 :date="plant.date"
                 :producer="plant.producer" />
         </div>
-        <PlantButton class="more" text="Visa fler"/>
+        <PlantButton class="more" text="Visa fler" />
     </main>
 </template>
 
 <style scoped>
-
-h2, .more {
-        display: grid;
-        place-content: center;
-        width: max-content;
-        margin: 2rem auto 2rem auto;
+h2,
+.more {
+    display: grid;
+    place-content: center;
+    width: max-content;
+    margin: 2rem auto 2rem auto;
 }
 .grid {
     display: grid;
