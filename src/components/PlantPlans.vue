@@ -1,5 +1,6 @@
 <script setup>
 import PlantAdd from './PlantAdd.vue';
+import PlantGroup from './PlantGroup.vue';
 import PlantMy from './PlantMy.vue';
 import PlantNavbar from './PlantNavbar.vue'
 import PlantPlanned from './PlantPlanned.vue';
@@ -13,6 +14,7 @@ import PlantReturn from './PlantReturn.vue';
   <PlantAdd />
   <PlantPlanned />
   <PlantPlanted />
+  <PlantGroup />
   <PlantReturn />
 </template>
 
