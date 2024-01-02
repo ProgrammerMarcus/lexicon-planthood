@@ -27,7 +27,7 @@ footer {
     @media screen and (min-width: 800px) {
         grid-template: 1fr / 1fr 1fr;
     }
-    background: center / cover url("/img/hand.avif");
+    background: center / cover url("/img/hand.jpg");
     margin-top: 80px;
     color: white;
 }

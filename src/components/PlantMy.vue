@@ -8,7 +8,7 @@
 <style scoped>
 div {
     display: grid;
-    background: center / cover url("/img/hand.avif");
+    background: center / cover url("/img/hand.jpg");
     place-items: center;
     place-content: center;
     gap: 30px;

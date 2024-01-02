@@ -19,7 +19,7 @@ img {
     height: 100%;
 }
 img:nth-child(1) {
-    background: center / cover url("/img/succulent.avif");
+    background: center / cover url("/img/succulent.jpg");
     grid-row: 2 span;
     @media screen and (max-width: 799px) {
         grid-column: 2 span;

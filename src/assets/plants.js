@@ -1,9 +1,9 @@
-import cucumberUrl from "./img/cucumber.avif"
-import tomatoesUrl from "./img/tomatoes.avif"
-import tomatoUrl from "./img/tomato.avif"
-import peaUrl from "./img/pea.avif"
-import turnipUrl from "./img/turnip.avif"
-import squashUrl from "./img/squash.avif"
+import cucumberUrl from "./img/cucumber.jpg"
+import tomatoesUrl from "./img/tomatoes.jpg"
+import tomatoUrl from "./img/tomato.jpg"
+import peaUrl from "./img/pea.jpg"
+import turnipUrl from "./img/turnip.jpg"
+import squashUrl from "./img/squash.jpg"
 
 const plants = [
     {
