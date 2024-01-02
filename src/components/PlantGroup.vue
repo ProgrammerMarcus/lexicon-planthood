@@ -1,9 +1,9 @@
 <template>
     <div>
-        <img src="@/assets/img/farmer.jpg" alt="A farmer picking fruit" />
-        <img src="@/assets/img/watering.jpg" alt="Watering plants" />
-        <img src="@/assets/img/vegetables.jpg" alt="A bunch of vegetables" />
-        <img src="@/assets/img/ffarmer.jpg" alt="A farmer smiling at the camera" />
+        <img src="/img/farmer.jpg" alt="A farmer picking fruit" />
+        <img src="/img/watering.jpg" alt="Watering plants" />
+        <img src="/img/vegetables.jpg" alt="A bunch of vegetables" />
+        <img src="/img/ffarmer.jpg" alt="A farmer smiling at the camera" />
     </div>
 </template>
 

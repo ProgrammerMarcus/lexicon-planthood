@@ -49,3 +49,4 @@ h2 {
     }
 }
 </style>
+../../public/plants.js

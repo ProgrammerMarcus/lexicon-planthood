@@ -4,7 +4,7 @@ import PlantButton from "./PlantButton.vue";
 
 <template>
     <header>
-        <img src="@/assets/svg/plant.svg" alt="A seed package" />
+        <img src="/svg/plant.svg" alt="A seed package" />
         <div>
             <h2>Våra tidigare odlingar</h2>
             <p>

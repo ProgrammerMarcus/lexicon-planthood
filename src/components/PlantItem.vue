@@ -16,7 +16,7 @@ defineProps({
 <template>
     <section>
         <div class="bg">
-            <img class="hide" src="@/assets/svg/plant.svg" :alt="item" />
+            <img class="hide" src="/svg/plant.svg" :alt="item" />
         </div>
         <div class="order">
             <h3>{{ item }}</h3>

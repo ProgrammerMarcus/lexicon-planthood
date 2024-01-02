@@ -1,12 +1,8 @@
-<script setup>
-import logoUrl from "../assets/svg/logo.svg"
-</script>
-
 <template>
     <div>
-        <img :src=logoUrl alt="The PP logo" />
-        <img src="@/assets/svg/seedling.svg" alt="A seedling" />
-        <img src="@/assets/svg/dig.svg" alt="A digging shovel" />
+        <img src="/svg/logo.svg" alt="The PP logo" />
+        <img src="/svg/seedling.svg" alt="A seedling" />
+        <img src="/svg/dig.svg" alt="A digging shovel" />
     </div>
 </template>
 
@@ -23,7 +19,7 @@ img {
     height: 100%;
 }
 img:nth-child(1) {
-    background: center / cover url("@/assets/img/succulent.avif");
+    background: center / cover url("/img/succulent.avif");
     grid-row: 2 span;
     @media screen and (max-width: 799px) {
         grid-column: 2 span;

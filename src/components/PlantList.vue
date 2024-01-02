@@ -39,3 +39,4 @@ h2,
     place-items: center;
 }
 </style>
+../../public/plants.js

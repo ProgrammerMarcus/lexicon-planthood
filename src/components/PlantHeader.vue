@@ -13,7 +13,7 @@ import PlantButton from "./PlantButton.vue";
             </p>
             <PlantButton text="SÅ-TIPS" />
         </div>
-        <img src="@/assets/svg/Vectorseedpackage.svg" alt="A seed package" />
+        <img src="/svg/seeds.svg" alt="A seed package" />
         <hr />
     </header>
 </template>

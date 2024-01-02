@@ -6,17 +6,17 @@
             <h2>Vi hörs</h2>
             <address>
                 <div>
-                    <img src="@/assets/svg/phone.svg" alt="Phone" />
+                    <img src="/svg/phone.svg" alt="Phone" />
                     <span>0701-234567</span>
                 </div>
                 <div>
                     <span>mail@mail.se</span>
-                    <img src="@/assets/svg/envelope.svg" alt="Mail" />
+                    <img src="/svg/envelope.svg" alt="Mail" />
                 </div>
             </address>
         </div>
         <div class="logo">
-            <img src="@/assets/svg/Logo.svg" alt="The PP logo" />
+            <img src="/svg/logo.svg" alt="The PP logo" />
         </div>
     </footer>
 </template>
@@ -27,7 +27,7 @@ footer {
     @media screen and (min-width: 800px) {
         grid-template: 1fr / 1fr 1fr;
     }
-    background: center / cover url("@/assets/img/hand.avif");
+    background: center / cover url("/img/hand.avif");
     margin-top: 80px;
     color: white;
 }

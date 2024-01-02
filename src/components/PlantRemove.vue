@@ -1,6 +1,6 @@
 <template>
     <button aria-label="Ta bort">
-        <img src="@/assets/svg/trash.svg" alt="Ta bort" />
+        <img src="/svg/trash.svg" alt="Ta bort" />
     </button>
 </template>
 

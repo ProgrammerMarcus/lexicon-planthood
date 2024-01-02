@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img src="@/assets/svg/logo.svg" alt="The PP logo" />
+        <img src="/svg/logo.svg" alt="The PP logo" />
         <h1>Mina sidor</h1>
     </div>
 </template>
@@ -8,7 +8,7 @@
 <style scoped>
 div {
     display: grid;
-    background: center / cover url("@/assets/img/hand.avif");
+    background: center / cover url("/img/hand.avif");
     place-items: center;
     place-content: center;
     gap: 30px;

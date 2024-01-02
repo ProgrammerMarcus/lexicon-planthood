@@ -10,7 +10,7 @@ addEventListener("resize", (event) => {
         <img
             @click="dropdown = !dropdown"
             id="burgir"
-            src="@/assets/svg/burgir.svg"
+            src="/public/svg/burgir.svg"
             alt="A burgir (not to be confused with burger)" />
         <div v-show="dropdown" id="links" class="links">
             <a href="#/plans" id="link_planer">PLANER</a>
