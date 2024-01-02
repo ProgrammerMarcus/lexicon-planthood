@@ -1,5 +1,5 @@
 <script setup>
-import logoUrl from "./assets/svg/logo.svg"
+import logoUrl from "../assets/svg/logo.svg"
 </script>
 
 <template>
