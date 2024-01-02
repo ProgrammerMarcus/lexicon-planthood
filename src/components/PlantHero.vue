@@ -1,6 +1,10 @@
+<script setup>
+import logoUrl from "./svg/logo.svg"
+</script>
+
 <template>
     <div>
-        <img src="@/assets/svg/logo.svg" alt="The PP logo" />
+        <img :src=logoUrl alt="The PP logo" />
         <img src="@/assets/svg/seedling.svg" alt="A seedling" />
         <img src="@/assets/svg/dig.svg" alt="A digging shovel" />
     </div>
