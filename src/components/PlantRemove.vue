@@ -8,6 +8,7 @@
 button {
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 @media (min-width: 800px) {
@@ -25,10 +26,9 @@ button {
     button img {
         display: none;
     }
-}
-
-button:hover {
+    button:hover {
     background-color: black;
+}
 }
 
 </style>

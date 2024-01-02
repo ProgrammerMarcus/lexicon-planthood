@@ -19,4 +19,8 @@ a {
         font-size: 0.8rem;
     }
 }
+a:hover {
+    background-color: black;
+    color: white;
+}
 </style>
