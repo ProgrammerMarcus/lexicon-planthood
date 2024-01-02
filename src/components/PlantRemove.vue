@@ -26,4 +26,9 @@ button {
         display: none;
     }
 }
+
+button:hover {
+    background-color: black;
+}
+
 </style>

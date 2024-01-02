@@ -22,4 +22,9 @@ a {
         font-size: 1rem;
     }
 }
+
+a:hover {
+    background-color: black;
+}
+
 </style>

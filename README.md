@@ -2,6 +2,8 @@
 
 Repository for assignment. Uses Vue.
 
+Available on: https://programmermarcus.github.io/lexicon-planthood/#/
+
 ## Project Setup
 
 ```sh
