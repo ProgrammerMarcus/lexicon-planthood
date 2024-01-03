@@ -19,9 +19,7 @@ const currentView = computed(() => {
 </script>
 
 <template>
-    <div id="root">
-        <component :is="currentView" />
-    </div>
+    <component :is="currentView" />
 </template>
 
 <style scoped></style>
