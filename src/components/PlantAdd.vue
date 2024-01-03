@@ -55,6 +55,9 @@ label {
 input {
     border: none;
     box-shadow: 2px 2px 4px var(--shadow);
+    height: 2.5rem;
+    border-radius: 9px;
+    padding: 0.5rem;
 }
 
 form {

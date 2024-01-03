@@ -1,5 +1,15 @@
+<script setup>
+function scroller() {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+    });
+}
+</script>
+
 <template>
-    <a href="#root">Till toppen av sidan</a>
+    <a @click="scroller">Till toppen av sidan</a>
 </template>
 
 <style scoped>
@@ -12,6 +22,7 @@ a {
     text-align: center;
     width: 100%;
     height: 5rem;
+    cursor: pointer;
 }
 @media screen and (max-width: 799px) {
     a {
